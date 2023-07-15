@@ -61,6 +61,9 @@ http://www.tooplate.com/view/2078-adventure
 		  margin: 100px;
 		  padding: 100px;
 		}
+		#my-paragraph {
+          font-size: 18px;
+        }
 		</style>
 </head>
 
@@ -86,6 +89,9 @@ http://www.tooplate.com/view/2078-adventure
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
 			</button>
 			<a href="#home" class="smoothScroll navbar-brand">SHAYAN VAFAEI</a>
 		</div>
@@ -93,13 +99,15 @@ http://www.tooplate.com/view/2078-adventure
 			<ul class="nav navbar-nav navbar-right">
             
 				<!-- <li><a href="#home" class="smoothScroll">HOME</a></li> -->
-                
-				<li><a href="#research" class="smoothScroll">INTERESTS</a></li>
-				<li><a href="#about" class="smoothScroll">EXPERIENCES</a></li>
-				<li><a href="#team" class="smoothScroll">PUBLICATIONS</a></li>
-				<li><a href="#portfolio" class="smoothScroll">PROJECTS</a></li>
-				<li><a href="#plan" class="smoothScroll">SKILLS</a></li>
-				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+
+
+				<li><a onclick="location.href='#research'" class="smoothScroll">INTERESTS</a></li>
+				<li><a onclick="location.href='#about'">EXPERIENCES</a></li>
+				<li><a onclick="location.href='#team'" class="smoothScroll">PUBLICATIONS</a></li>
+				<li><a onclick="location.href='#portfolio'" class="smoothScroll">PROJECTS</a></li>
+				<li><a onclick="location.href='#plan'" class="smoothScroll">SKILLS</a></li>
+				<li><a onclick="location.href='#contact'" class="smoothScroll">CONTACT</a></li>
+
 			</ul>
 		</div>
 
@@ -170,17 +178,21 @@ http://www.tooplate.com/view/2078-adventure
     </div> <!-- /.site-slider -->
 </div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 <!-- Research section
 ================================================== -->
 <section id="research" class="parallax-section">
 	<div class="container">
 		<div class="row">
+
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p></p>
+
 
 			<!-- Section title
 			================================================== -->
@@ -202,7 +214,8 @@ http://www.tooplate.com/view/2078-adventure
 					<i class="icon-tools medium-icon"></i>
 						<h3>Computer Vision </h3>
 						<hr>
-						<p>Interest Level : 4 </p>
+						<p id="my-paragraph">This is the paragraph</p>
+
 				</div>
 
 				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -219,14 +232,14 @@ http://www.tooplate.com/view/2078-adventure
 						<p>Interest Level : 4 </p>
 				</div>
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.2s">
+				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
 					<i class="icon-flag medium-icon"></i>
 						<h3>Self-Supervised Learning</h3>
 						<hr>
 						<p>Interest Level : 5 </p>
 				</div>
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.5s">
+				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
 					<i class="icon-basket medium-icon"></i>
 						<h3>Transformers</h3>
 						<hr>
